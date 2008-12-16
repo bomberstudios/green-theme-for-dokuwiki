@@ -1,9 +1,3 @@
-/**
- * Tableless Layout for default template
- *
- * @author Andreas Gohr <andi@splitbrain.org>
- * @author moraes <moraes@tipos.com.br>
- */
 div.dokuwiki #content { padding: 1em; }
 div.dokuwiki #header {
   background-color: #333;

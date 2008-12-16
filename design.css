@@ -570,7 +570,7 @@ div.dokuwiki div.ajax_qsearch {
 }
 /* --------- Toolbar -------------------- */
 button.toolbutton {
-  padding: 5px;
+  padding: 3px;
   margin-right: 2px;
   border: 1px solid __border__;
 }
@@ -592,8 +592,7 @@ button.pickerbutton {
 
 /* ---------------  Image Details  ----------------- */
 div.dokuwiki div.img_big {
-  float: left;
-  margin-right: 0.5em;
+  margin: 1em;
 }
 div.dokuwiki dl.img_tags dt {
   font-weight: bold;
