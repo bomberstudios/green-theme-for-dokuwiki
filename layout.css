@@ -1,0 +1,67 @@
+/**
+ * Tableless Layout for default template
+ *
+ * @author Andreas Gohr <andi@splitbrain.org>
+ * @author moraes <moraes@tipos.com.br>
+ */
+div.dokuwiki #content { padding: 1em; }
+div.dokuwiki #header {
+  background-color: #333;
+  padding: 2em;
+}
+
+/* -------------- top row --------------- */
+div.dokuwiki .logo {
+  width: 800px;
+  margin: 0 auto;
+  font-size: 2em;
+}
+div.dokuwiki .logo a { color: #adca73; }
+
+/* ---------------  top and bottom bar ---------------- */
+div.dokuwiki .bar {
+  clear: both;
+  overflow: hidden;
+  background-color: #ADCA73;
+  padding: 1em;
+}
+
+div.dokuwiki .bar-left {
+  float: left;
+}
+
+div.dokuwiki .bar-right {
+  float: right;
+  text-align: right;
+}
+
+div.dokuwiki #bar__bottom { background-color: #eee; }
+div.dokuwiki .breadcrumbs { margin-bottom:10px; }
+/* ------------- File Metadata ----------------------- */
+
+div.dokuwiki div.meta {
+  clear: both;
+  margin: 1em 0;
+  color: #ccc;
+  font-size: 70%;
+  padding: 0 1em;
+}
+
+div.dokuwiki div.meta div.user { float: left; }
+div.dokuwiki div.meta div.doc { text-align: right; }
+
+#copy {
+  width:800px;
+  margin:0 auto;
+  color:#999;
+}
+#copy a:link, #copy a:visited {
+  color:#888;
+  background:#ccc;
+  text-decoration:none;
+}
+#copy a:hover, #copy a:active {
+  color:#fff;
+  background:#111;
+  text-decoration:none;
+}
