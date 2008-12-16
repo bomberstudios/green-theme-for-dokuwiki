@@ -6,7 +6,7 @@ body {
 }
 /* the document */
 div.dokuwiki div.page {
-  text-align: justify;
+  text-align: left;
   width:800px;
   margin:10px auto 10px auto;
   background-color: #FFF;
