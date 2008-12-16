@@ -129,7 +129,9 @@ html>body div.dokuwiki button.button {
 * html div.dokuwiki button.button {
   height: 1.8em;
 }
-
+div.secedit {
+  display: none;
+}
 div.dokuwiki div.secedit input.button {
 /*  border: 1px solid #f5f5f5;*/
 /*  color: #ff0000;*/
